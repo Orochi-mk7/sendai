@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 ,h2 ,h3 {
+    margin: 0;
+}
+
+.hero {
+    background-image: url("images/805e03d6-city-3561-166c163fcaf.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;   
+    height: 300px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.hero h1,h2 {
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-shadow: 0 0 1px black;
+}
+
+.hero h1 {
+    background-color: #7d7657;
+    margin-bottom: 10px;
+    font-family: "Pacifico";
+}
+
+.hero h2 {
+    background-color: #C9BFC6;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.activites-list{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;  
+}
+
+.activites-div {
+    background-color: #E3DFF4;
+    padding-bottom: 20px;
+}
+
+.action-div {
+    align-items: center;
+    width: 300px;
+}
+
+.action-div h3,.action-div p {
+    margin: 10px 0;
+    color: #7d7657;
+}
+
+#top-activ-text {
+    font-family: "Pacifico";
+    color: white;
+    text-shadow: 0 0 3px black;
+    padding: 25px 0;
+}
+
+.guide-div {
+    width: 350px;
+    height: 250px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    background: #AEB252;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.guide-div h4 {
+    font-family: "Pacifico";
+}
+
+#guide-img {
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
